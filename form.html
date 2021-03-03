@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="logo.png">
+    <title>CCE | BOOK NOW</title>
+</head>
+<body class="new-page">
+    <div class="container">
+        <div class="form">
+            <h2><a href="index.html">CCE</a></h2>
+            <h2>Register Now</h2>
+            <form class="gform" action="https://script.google.com/macros/s/AKfycbyN8SlkGZ6egClAtUraSy-s-2nPAYTQRWVwhaRT/exec" method="POST" enctype="text/plain">
+                <div class="inputBox">
+                    <label for="team">Team Name</label>
+                    <input type="text" name="team" id="team" placeholder="Team Name" required>
+                </div>
+                <div class="inputBox">
+                    <label for="mail">Mail ID</label>
+                    <input type="email" name="mail" id="mail" placeholder="Mail ID" required>
+                </div>
+                <div class="inputBox">
+                    <label for="contact">Contact</label>
+                    <input type="text" name="contact" id="contact" placeholder="Mobile No." required>
+                </div>
+                <div class="inputBox">
+                    <label for="slot">Time Slot</label>
+                    <input type="datetime-local" name="slot" id="slot" required>
+                </div>
+                <div class="inputBox">
+                    <label for="player1">Player-1 Info</label>
+                    <input type="text" name="player1" id="player1" placeholder="Player-1-Alias-Position" required>
+                </div>
+                <div class="inputBox">
+                    <label for="player2">Player-2 Info</label>
+                    <input type="text" name="player2" id="player2" placeholder="Player-2-Alias-Position" required>
+                </div>
+                <div class="inputBox">
+                    <label for="player3">Player-3 Info</label>
+                    <input type="text" name="player3" id="player3" placeholder="Player-3-Alias-Position" required>
+                </div>
+                <div class="inputBox">
+                    <label for="player4">Player-4 Info</label>
+                    <input type="text" name="player4" id="player4" placeholder="Player-4-Alias-Position" required>
+                </div>
+                <div class="inputBox">
+                    <label for="player5">Player-5 Info</label>
+                    <input type="text" name="player5" id="player5" placeholder="Player-5-Alias-Position" required>
+                </div>
+                <div class="inputBox">
+                    <input type="submit" value="Submit" class="subm" id="blk">
+                </div>
+            </form>            
+        </div>
+    </div>
+
+    <script data-cfasync="false" src="form-submission-handler.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
